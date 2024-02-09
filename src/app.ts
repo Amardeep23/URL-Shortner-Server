@@ -39,7 +39,7 @@ process.on("unhandledRejection", (reason, p) => {
   process.exit(1);
 });
 process.on("uncaughtException", (e) => {
-  console.error("Uncaught exception at:", e);
+  console.error("Uncaught exception at :", e);
 
   server.close();
   process.exit(1);
