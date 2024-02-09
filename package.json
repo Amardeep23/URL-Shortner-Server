@@ -2,10 +2,11 @@
   "name": "bikashweb-node-express-template",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
     "start": "ts-node src/app.ts --env=production",
     "dev": "nodemon --config nodemon.json src/app.ts"
+    "vercel-build": "Hello From Server!!"
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.1",
