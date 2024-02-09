@@ -44,3 +44,5 @@ process.on("uncaughtException", (e) => {
   server.close();
   process.exit(1);
 });
+
+export default app;
