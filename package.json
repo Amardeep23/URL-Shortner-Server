@@ -5,7 +5,7 @@
   "main": "app.ts",
   "scripts": {
     "start": "ts-node src/app.ts --env=production",
-    "dev": "nodemon --config nodemon.json src/app.ts"
+    "dev": "nodemon --config nodemon.json src/app.ts",
     "vercel-build": "Hello From Server!!"
   },
   "dependencies": {
